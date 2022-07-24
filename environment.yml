@@ -1,0 +1,9 @@
+name: lib-blackjack
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy
+  - python
+  - scipy
+prefix: /home/spencer/miniconda3/envs/lib-blackjack
