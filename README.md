@@ -10,8 +10,8 @@ Date: July 2022
 Simple process to install
 
 ```
-git clone https://github.com/roshambo919/blackjack-bots
-conda env create -f environment.yml
+git clone https://github.com/roshambo919/blackjack-bots.git
+conda env create -f blackjack-bots/environment.yml
 conda activate lib-blackjack
 python -m pip install -e ./blackjack-bots
 cd blackjack-bots/examples
